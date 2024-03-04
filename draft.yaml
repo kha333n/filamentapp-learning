@@ -32,3 +32,9 @@ models:
     abstract: text
     relationships:
       belongsTo: Conference
+
+  Song:
+    title: string
+    length: int
+    relationships:
+      belongsTo: Conference
